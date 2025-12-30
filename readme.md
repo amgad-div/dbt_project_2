@@ -100,3 +100,6 @@ Designed for BI queries and reporting.
 
 ---
 
+<img width="967" height="360" alt="image" src="https://github.com/user-attachments/assets/844dc969-078f-4c68-99f8-624ca30c4c49" />
+
+
