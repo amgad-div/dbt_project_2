@@ -37,3 +37,39 @@ new_dbt_project/
 │
 └── snapshots/
 └── books_price_snapshot.sql
+
+
+
+
+
+
+
+
+
+
+---
+
+## 🧱 Layers
+
+### 🟫 Bronze
+Raw seed data loaded from CSV files using `dbt seed`.
+
+### 🥈 Silver
+Staging models that:
+- Clean and standardize raw data
+- Perform type casting and basic logic
+- Prepare data for analytics
+
+### 🥇 Gold
+Analytics-ready models:
+- **Dimensions** (`dim_books`, `dim_date`)
+- **Facts** (`fct_sales`, `fct_inventory`)
+Designed for BI queries and reporting.
+
+---
+
+## 🚀 Run Commands
+
+1. Load seeds:
+```bash
+dbt seed
