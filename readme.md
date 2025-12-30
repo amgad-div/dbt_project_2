@@ -49,18 +49,18 @@ new_dbt_project/
 
 ---
 
-## 🧱 Layers
+## Layers
 
-### 🟫 Bronze
+###  Bronze
 Raw seed data loaded from CSV files using `dbt seed`.
 
-### 🥈 Silver
+###  Silver
 Staging models that:
 - Clean and standardize raw data
 - Perform type casting and basic logic
 - Prepare data for analytics
 
-### 🥇 Gold
+###  Gold
 Analytics-ready models:
 - **Dimensions** (`dim_books`, `dim_date`)
 - **Facts** (`fct_sales`, `fct_inventory`)
@@ -68,8 +68,3 @@ Designed for BI queries and reporting.
 
 ---
 
-## 🚀 Run Commands
-
-1. Load seeds:
-```bash
-dbt seed
